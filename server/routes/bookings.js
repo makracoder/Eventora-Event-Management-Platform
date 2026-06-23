@@ -1,9 +1,12 @@
-// routes/bookings.js
 const express = require('express');
 const router = express.Router();
+const { bookEvent, confirmBooking, getMyBookings, cancelBooking, sendBookingOTP } = require('../controller/bookingController');
+const { protect, admin } = require('../middleware/auth');
 
-router.get('/', (req, res) => {
-  res.json({ message: 'bookings route working' });
-});
+router.post('/send-otp', protect, sendBookingOTP);
+router.post('/', protect, bookEvent);
+router.put('/:id/confirm', protect, admin, confirmBooking);
+router.get('/my', protect, getMyBookings);
+router.delete('/:id', protect, cancelBooking);
 
 module.exports = router;
