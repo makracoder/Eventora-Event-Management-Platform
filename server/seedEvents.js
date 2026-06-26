@@ -14,7 +14,7 @@ const events = [
         category: 'Music',
         totalSeats: 100,
         ticketPrice: 499,
-        image: 'https://picsum.photos/seed/eventora1/640/360',
+        image: 'https://loremflickr.com/640/360/concert,music',
     },
     {
         title: 'Startup Pitch Night',
@@ -24,7 +24,7 @@ const events = [
         category: 'Business',
         totalSeats: 60,
         ticketPrice: 0,
-        image: 'https://picsum.photos/seed/eventora2/640/360',
+        image: 'https://loremflickr.com/640/360/startup,office',
     },
     {
         title: 'Modern Art Exhibition',
@@ -34,7 +34,7 @@ const events = [
         category: 'Art',
         totalSeats: 150,
         ticketPrice: 199,
-        image: 'https://picsum.photos/seed/eventora3/640/360',
+        image: 'https://loremflickr.com/640/360/artgallery,painting',
     },
     {
         title: 'Marathon for a Cause',
@@ -44,7 +44,7 @@ const events = [
         category: 'Sports',
         totalSeats: 300,
         ticketPrice: 299,
-        image: 'https://picsum.photos/seed/eventora4/640/360',
+        image: 'https://loremflickr.com/640/360/marathon,running',
     },
     {
         title: 'Stand-up Comedy Open Mic',
@@ -54,7 +54,7 @@ const events = [
         category: 'Comedy',
         totalSeats: 80,
         ticketPrice: 250,
-        image: 'https://picsum.photos/seed/eventora5/640/360',
+        image: 'https://loremflickr.com/640/360/comedy,microphone',
     },
 ];
 

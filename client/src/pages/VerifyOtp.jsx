@@ -19,7 +19,7 @@ const VerifyOtp = () => {
         setLoading(true);
         try {
             const data = await verifyOtp(email, otp);
-            navigate(data.role === 'admin' ? '/admin' : '/events');
+            navigate(data.role === 'admin' ? '/admin' : '/');
         } catch (err) {
             setError(err.response?.data?.message || 'Verification failed');
         } finally {
